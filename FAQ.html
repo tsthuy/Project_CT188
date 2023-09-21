@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTL Movie</title>
+
+    <!-- FONT GOOGLE -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- BS4 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- venobox CSS -->
+    <link rel="stylesheet" href="./css/venobox.min.css">
+
+    <!-- Index CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./img/logo-white.svg" type="image/x-icon">
+</head>
+
+<body>
+    <section class="section header" style="background-color: black;">
+        <!-- HEADER -->
+        <header class="container-md">
+            <div class="language-btn" id="google_translate_element"></div>
+            <nav class="navbar navbar-expand-md px-0">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo-orange.svg" height="150px" alt="logo" class="four_page_fix">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#movieNavBar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa fa-bars"></i>
+                </span>
+            </button>
+                <div class="collapse navbar-collapse" id="movieNavBar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item  line">
+                            <a class="nav-link" href="./HomePage.html">HOME</a>
+                        </li>
+                        <li class="nav-item line">
+                            <a class="nav-link" href="./Schedule.html">SCHEDULE</a>
+                        </li>
+                        <li class="nav-item line">
+                            <a class="nav-link" href="./News.html">NEWS</a>
+                        </li>
+                        <li class="nav-item line">
+                            <a class="nav-link" href="./Contact.html">CONTACT</a>
+                        </li>
+                        <li class="nav-item active line">
+                            <a class="nav-link" href="./FAQ.html">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <header id="headerFixed">
+            <nav class="navbar container navbar-expand-md">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo-orange.svg" height="120px" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#movieNavBar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa fa-bars"></i>
+                </span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="movieNavBar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item  line">
+                            <a class="nav-link" href="./HomePage.html">HOME</a>
+                        </li>
+                        <li class="nav-item line">
+                            <a class="nav-link" href="./Schedule.html">SCHEDULE</a>
+                        </li>
+                        <li class="nav-item line">
+                            <a class="nav-link" href="./News.html">NEWS</a>
+                        </li>
+                        <li class="nav-item line">
+                            <a class="nav-link" href="./Contact.html">CONTACT</a>
+                        </li>
+                        <li class="nav-item active line">
+                            <a class="nav-link" href="./FAQ.html">FAQS</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+    <!-- FAQs -->
+    <div class="section FAQs">
+        <div class="container">
+            <h1 class="text-center">Frequently asked questions</h1>
+            <div class="">
+                <h3 class="title">1. Watching movies is slow?</h3>
+                <p>If the movie plays but stops every once in a while to wait for it to load again (despite trying to choose different servers), it needs to be determined by your device or by your network.</p>
+                <ul>
+                    <li>Try watching the movie on another device (computer / phone / TV...). If you change to another device, the movie will run smoothly again => because of your old device. If it is a TV, check the TV settings and
+                        <i>disable IPv6 network connection protocol.
+                        </i>If it's an iOS device, then <i>try using another browser</i> (e.g. Chrome) instead of the default Safari browser, but in general iOS players have problems with high bitrate movies + 5.1 sound.</li>
+                    <li>If the movie runs slow on all the devices you try, with all the servers the site has to offer (VIP mode is only available), it's because <b>international bandwidth</b> Your network is squeezed (due to congested international lines at peak hours or broken cables...). There are 2 solutions: 1. Call to reflect with the carrier; 2. Use a VPN (virtual private network) to speed up your network. <b>We recommend you to use the WARP application</b> => <a href="https://1.1.1.1"
+                            target="_blank">download here</a>.</li>
+                    <p>Note: turning on VPN will change the route of data transmission from the server to your device, and not just turning on VPN will make the network faster - sometimes turning on VPN will make your network slower! Just like when this route is congested, traffic is congested, then you should change to another more open route, but other times it's the other way around!</p>
+                    <ul>
+                        Therefore, when watching movies with lag, do the following to find the fastest data transmission route:
+                        <li><b>Turn off</b> VPN then try changing each server on the site</li>
+                        <li><b>Turn on</b> VPN then try changing each server on the site</li>
+                        ...until you find a combination that makes watching movies smoother. And remember, that combination is not necessarily the best all the time. So whenever there is lag, repeat the above steps!
+
+                    </ul>
+                </ul>
+                <h3 class="title">
+                    2. Having problems with the sound: the movie has no sound, the character's voice is lost, or the sound is cracked?</h3>
+                <ul>
+                    <li>If viewing on mobile: The sound error is caused by your browser (usually Chrome). <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox" target="_blank">Install & use Firefox browser! </a> </li>
+                    <li>If you watch on PC: Unlike movies/clips on other websites (including Youtube), movies on WatchMovie use 5.1 sound (6 channels) instead of stereo (2 channels). If the device you are viewing has only 2 speakers, you need to set up the program
+                        manage the sound on the device properly: choose the right mode with the number of speakers you have (stereo), don't choose more, otherwise your device will try to output sound to non-existent speakers => loss of sound . For example, here is the selection of
+                        Realtek HD Audio Manager sound mode: <a href="https://imgur.com/a/D6nPGcl" target="_blank"> click here</a></li>
+                </ul>
+                <h3 class="title">3. How can I watch movies on TV?</h3>
+                To watch movies on TV, your TV must have a web browser. Most Smart TVs in recent years have a built-in browser. If your TV does not have a browser available, you can install it from the app store (Google Play Store / CH Play / App Store)
+                   On tv. With Android TV, you should install Puffin browser. After installing the browser, visit the website as you would on your computer/phone and watch the movie.
+                <br>
+                <br> If you can't watch a movie using a browser on your TV, you can connect your computer to your TV (usually via HDMI) and play it from your computer to your TV.
+            </div>
+
+        </div>
+    </div>
+    <section class="section form">
+        <div class="container">
+            <form onsubmit="return formValidation(this);" name="frm" action="./FAQ.html" method="get" enctype="multipart/form-data">
+                <h1 class="text-center active line">Feedback</h1>
+                <div class="mb-3">
+                    <label for="InputName" class="form-label">Name</label>
+                    <input minlength="4" type="text" name="InputName" class="form-control" id="InputName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="InputEmail" class="form-label">Email Address</label>
+                    <input type="email" name="InputEmail" class="form-control" id="InputEmail" required>
+                </div>
+                <div class="mb-3">
+                    <label for="InputText" class="form-label">Content</label>
+                    <textarea minlength="10" class="form-control" name="InputText" id="InputText" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="w-100 btn btn-primary">SEND</button>
+            </form>
+        </div>
+
+        </form>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row section">
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <h3>ABOUT HTL MOVIE</h3>
+                    <ul>
+                        <li><a href="./Contact.html">About us</a></li>
+                        <li><a href="Schedule.html">Schedule</a></li>
+                        <li><a href="News.html">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <h3>CONNECT WITH US</h3>
+                    <ul>
+                        <li><a href="https://facebook.com"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="https://twitter.com"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="https://youtube.com"><i class="fab fa-youtube"></i> Youtube</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>2022 © Movie Star / Group 10</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Thư viện hỗ trợ -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- BS4 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- VENOBOX JS     -->
+    <script src="./js/venobox.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.venobox').venobox();
+        });
+    </script>
+
+    <!-- MAIN JS -->
+    <script>
+        window.onscroll = function() { 
+                //Code tạo hiệu ứng xuất hiện thanh màu đen khi scroll
+                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                    // translate(-50%,0)
+                    document.getElementById("headerFixed").style.transform = "translate(-50%,0)";
+                } else {
+                    document.getElementById("headerFixed").style.transform = "translate(-50%,-100%)";
+                }
+                // =======
+                //Script tạo hiệu ứng xuất hiện thanh màu đen khi scroll
+                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                    // translate(-50%,0)
+                    document.getElementById("headerFixed").style.transform = "translate(-50%,0)";
+                } else {
+                    document.getElementById("headerFixed").style.transform = "translate(-50%,-100%)";
+                    // >>>>>>> f343eeee01e3751d4317a6a7207c585d698f8190
+                }
+            }
+                // Hàm kiểm tra nội dung nhập vào form
+             
+                function formValidation(frm) {
+                     alert("ĐÃ GỬI THÀNH CÔNG")
+                     return true;
+                   
+                    }
+
+                
+    </script>
+    <!-- AIP GOOGLE TRANSLATE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
